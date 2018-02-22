@@ -32,8 +32,8 @@
 #include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
 
 String mood;
-int brightness = 180; //max brightness setting
-int minbrightness = 150; //min brightness for breathe effect
+int brightness = 80; //max brightness setting
+int minbrightness = 50; //min brightness for breathe effect
 int fade = 150; //breathe effect starting brightness
 int step = 5; //5 seems to work best for this application
 int wait = 0; //because we need to feed the wdt and yield the process zero seems to work best here
