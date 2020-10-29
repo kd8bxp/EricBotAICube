@@ -15,14 +15,14 @@
  */
 
 #include <ESP8266WiFi.h>
-#include <PubSubClient.h>
-#include <Adafruit_NeoPixel.h>
+#include "src/PubSubClient/PubSubClient.h"
+#include "src/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
-#include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
+#include "src/WiFiManager/WiFiManager.h"         //https://github.com/tzapu/WiFiManager
 
-const char* mqtt_server = "iot.eclipse.org";
+const char* mqtt_server = "mqtt.cheerlights.com";
 
 String color;
 int brightness = 150;
@@ -117,5 +117,3 @@ strip.setPixelColor(0, c);
 strip.show();
 delay(wait);
 }
-
-

@@ -9,6 +9,10 @@ Google Home & Dweet.io video https://youtu.be/d3GBDp08U_U
 
 ## Installation
 
+## Libraries
+
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
 ## Things To Do
 
 ## Usage
@@ -54,3 +58,4 @@ This program is free software: you can redistribute it and/or modify
     along with this program.  If not, see <http://www.gnu.org/licenses>
 
 ### 1.8.9 June 2019
+### 1.8.10 Oct 29 2020 added libraries, changed MQTT broker to official Cheerlights Broker  

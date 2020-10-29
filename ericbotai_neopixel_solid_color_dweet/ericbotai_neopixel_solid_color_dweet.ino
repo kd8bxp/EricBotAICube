@@ -24,12 +24,12 @@
  * party - rainbow party mode - change to another mode a little slow
  */
 
-#include <Dweet.h> //https://github.com/quentinpigne/arduino-dweet.io
+#include "src/arduino_dweet/Dweet.h" //https://github.com/quentinpigne/arduino-dweet.io
 #include <ESP8266WiFi.h>
-#include <Adafruit_NeoPixel.h>
+#include "src/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 #include <DNSServer.h>
 #include <ESP8266WebServer.h>
-#include <WiFiManager.h>         //https://github.com/tzapu/WiFiManager
+#include "src/WiFiManager/WiFiManager.h"         //https://github.com/tzapu/WiFiManager
 
 String mood;
 int brightness = 150;
